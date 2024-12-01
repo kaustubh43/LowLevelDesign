@@ -7,8 +7,10 @@
     <list default="true" id="42d7b312-7891-43ed-a59f-939271b761be" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/AccessModifiers/Client2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/IntroToOOP/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroToOOP/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IntroToOOP/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroToOOP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Client.executor": "Run",
+    "Application.Client.executor": "Debug",
     "Application.Client2.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,7 +57,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Client2">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntroToOOP.Client" />
       <module name="BackendLLD" />
@@ -91,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client2" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client2" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -113,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732724011038</updated>
-      <workItem from="1732998472279" duration="6756000" />
+      <workItem from="1732998472279" duration="8851000" />
     </task>
     <servers />
   </component>
