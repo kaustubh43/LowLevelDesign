@@ -6,7 +6,7 @@ import java.util.List;
 public class BankAccount {
     private double balance;
     private String ownerName;
-    private List<String> transactionHistory;
+    private final List<String> transactionHistory;
 
     public BankAccount(){
         balance = 0;
