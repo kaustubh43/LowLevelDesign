@@ -2,7 +2,7 @@ package Labs2;
 
 public class Member extends User{
     private int borrowedBooksCounts;
-    final int MAX_BORROWED_BOOKS = 5;
+    private final int MAX_BORROWED_BOOKS = 5;
 
     public Member() {
         super();
@@ -21,11 +21,13 @@ public class Member extends User{
 
     @Override
     public void displayDashboard() {
+        System.out.println("Member Dashboard");
+        System.out.println("Name" + this.getUserName());
         System.out.println(this.getUserName() + " has borrowed : " + this.borrowedBooksCounts);
     }
 
     @Override
     public boolean canBorrowBooks() {
-        return borrowedBooksCounts >= MAX_BORROWED_BOOKS;
+        return borrowedBooksCounts < MAX_BORROWED_BOOKS;
     }
 }
