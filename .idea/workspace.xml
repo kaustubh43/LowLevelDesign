@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d7b312-7891-43ed-a59f-939271b761be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Labs2/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labs2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs2/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labs2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs2/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,30 +34,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Client2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClientPerson.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Node.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Coding/Git Repos/BackendLLD&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Debug",
+    "Application.Client2.executor": "Run",
+    "Application.ClientPerson.executor": "Run",
+    "Application.Labs2.Client.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Node.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Coding/Git Repos/BackendLLD",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.ClientPerson">
+}]]></component>
+  <component name="RunManager" selected="Application.Labs2.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntroToOOP.Client" />
       <module name="BackendLLD" />
@@ -97,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Labs2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Labs2.Client" />
+      <module name="BackendLLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Labs2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntroToOOP.Main" />
       <module name="BackendLLD" />
@@ -106,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Labs2.Client" />
         <item itemvalue="Application.ClientPerson" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client2" />
@@ -132,7 +147,7 @@
       <workItem from="1732998472279" duration="11118000" />
       <workItem from="1733154997189" duration="4241000" />
       <workItem from="1733328857116" duration="4450000" />
-      <workItem from="1733496329925" duration="4487000" />
+      <workItem from="1733496329925" duration="5467000" />
     </task>
     <servers />
   </component>

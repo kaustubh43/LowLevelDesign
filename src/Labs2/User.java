@@ -1,17 +1,17 @@
 package Labs2;
 
-public class User {
+public abstract class User {
     private String userId;
     private String name;
     private String contactInfo;
 
     // Default constructor
-    public User(){
+    User(){
         this.userId = generateUserID();
     }
 
     // Parameterised constructor.
-    public User(String name, String contactInfo){
+    User(String name, String contactInfo){
         this.userId = generateUserID();
         this.name = name;
         this.contactInfo = contactInfo;
@@ -22,6 +22,18 @@ public class User {
         this.userId = generateUserID();
         this.name = other.name;
         this.contactInfo = other.contactInfo;
+    }
+
+    public void displayDashboard(){
+
+    }
+
+    public boolean canBorrowBooks() {
+        return false;
+    }
+
+    public String getUserId(){
+        return userId;
     }
 
     public String getUserName(){
@@ -40,7 +52,8 @@ public class User {
         this.contactInfo = contactInfo;
     }
 
-    public static String generateUserID(){
+    private static String generateUserID(){
+        // Implementation is required.
         return "0";
     }
 
