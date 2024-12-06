@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d7b312-7891-43ed-a59f-939271b761be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/ClientPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/I1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/I2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDemo/PersonInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs2/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +131,7 @@
       <workItem from="1732998472279" duration="11118000" />
       <workItem from="1733154997189" duration="4241000" />
       <workItem from="1733328857116" duration="4450000" />
-      <workItem from="1733496329925" duration="224000" />
+      <workItem from="1733496329925" duration="3423000" />
     </task>
     <servers />
   </component>
