@@ -1,24 +1,35 @@
 package Labs2;
 
 public abstract class Book implements Lendable{
-    String isbn;
-    String title;
-    String author;
-    boolean isAvailable;
+    private String isbn;
+    private String title;
+    private String author;
+    private boolean isAvailable;
+
+    // Add default constructors.
+
+    // Add copy constructors.
+
+    public Book(String isbn, String title, String author) {
+        this.isbn = isbn;
+        this.title = title;
+        this.author = author;
+        this.isAvailable = true;
+    }
 
     @Override
     public boolean lend(User user) {
-        if(this.isAvailable){
+        if(this.isAvailable && user.canBorrowBooks()){  // make more precise.
             isAvailable = false;
             return true;
         }
-        else
-            return false;
+        return false;
     }
 
     @Override
     public void returnBook(User user) {
         this.isAvailable = true;
+        user.returnBook();
     }
 
     @Override
@@ -26,10 +37,21 @@ public abstract class Book implements Lendable{
         return isAvailable;
     }
 
-    public void displayBookDetails(){
-        System.out.println("ISBN: " + isbn);
-        System.out.println("Title: " + title);
-        System.out.println("Author: " + author);
-        System.out.println("Available: " + isAvailable);
+    public String getAuthor() {
+        return author;
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public abstract void displayBookDetails();
 }

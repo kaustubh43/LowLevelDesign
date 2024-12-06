@@ -55,4 +55,6 @@ public abstract class User {
         return "User-" + totalUsers;
     }
 
+    public abstract void returnBook();
+
 }
