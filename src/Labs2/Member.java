@@ -2,7 +2,7 @@ package Labs2;
 
 public class Member extends User{
     private int borrowedBooksCounts;
-    private final int MAX_BORROWED_BOOKS = 5;
+    private final static int MAX_BORROWED_BOOKS = 5;
 
     public Member() {
         super();

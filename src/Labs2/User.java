@@ -4,6 +4,7 @@ public abstract class User {
     private String userId;
     private String name;
     private String contactInfo;
+    private static int totalUsers = 0;
 
     // Default constructor
     User(){
@@ -50,7 +51,8 @@ public abstract class User {
 
     private static String generateUserID(){
         // Implementation is required.
-        return "0";
+        totalUsers++;
+        return "User-" + totalUsers;
     }
 
 }
