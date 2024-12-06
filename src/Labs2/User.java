@@ -24,13 +24,9 @@ public abstract class User {
         this.contactInfo = other.contactInfo;
     }
 
-    public void displayDashboard(){
+    public abstract void displayDashboard();
 
-    }
-
-    public boolean canBorrowBooks() {
-        return false;
-    }
+    public abstract boolean canBorrowBooks();
 
     public String getUserId(){
         return userId;
