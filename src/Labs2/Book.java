@@ -11,7 +11,7 @@ public abstract class Book implements Lendable{
     // Add copy constructors.
 
     public Book(String isbn, String title, String author) {
-        this.isbn = isbn;
+        this.isbn = isbn;   // International Standard Book Number
         this.title = title;
         this.author = author;
         this.isAvailable = true;

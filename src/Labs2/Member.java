@@ -14,6 +14,7 @@ public class Member extends User{
         this.borrowedBooksCounts = 0;
     }
 
+    // copy constructor.
     public Member(Member member){
         super(member);
         this.borrowedBooksCounts = 0;

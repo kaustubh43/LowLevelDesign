@@ -37,7 +37,7 @@ public class Librarian extends User{
         System.out.println("Librarian Returned");
     }
 
-    public void addBook(String bookName) {
+    public void addBook(String bookName, String isbn) {
         // Pass, can further add this
         System.out.println("Book Added");
     }

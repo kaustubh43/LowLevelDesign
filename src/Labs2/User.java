@@ -18,7 +18,7 @@ public abstract class User {
         this.contactInfo = contactInfo;
     }
 
-    // Copy constructors
+    // Copy constructor
     public User(User other){
         this.userId = generateUserID();
         this.name = other.name;
