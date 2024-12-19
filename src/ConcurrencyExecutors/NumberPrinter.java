@@ -1,4 +1,4 @@
-package Executors;
+package ConcurrencyExecutors;
 
 public class NumberPrinter implements Runnable {
     private final int i;
