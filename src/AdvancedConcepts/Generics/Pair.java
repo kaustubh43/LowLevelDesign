@@ -25,7 +25,7 @@ public class Pair<F, S>{
         this.second = second;
     }
 
-    static <X, Y> void doSomething(X first, Y second){
+    public static <X, Y> void doSomething(X first, Y second){
         System.out.println(first instanceof String);
         System.out.println(second instanceof String);
     }
