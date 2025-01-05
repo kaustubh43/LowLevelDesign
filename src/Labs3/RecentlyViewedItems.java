@@ -1,10 +1,10 @@
 package Labs3;
 
-import java.util.HashMap;
+// import java.util.HashMap;
 import java.util.LinkedList;
 
 public class RecentlyViewedItems {
-    private static int MAX_SIZE = 3;
+    private static int MAX_SIZE = 10;
     LinkedList<Item> recentlyViewed;
 
     public RecentlyViewedItems() {
