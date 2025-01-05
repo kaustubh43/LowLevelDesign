@@ -1,6 +1,6 @@
 package Labs3;
 
-public abstract class Item {
+public abstract class Item implements Comparable<Item> {
     private String id;
     private String name;
     private double price;
@@ -55,16 +55,22 @@ public abstract class Item {
         this.quantity = quantity;
     }
 
-    public static int getTotal_ids() {
-        return total_ids;
-    }
-
-    public static void setTotal_ids(int total_ids) {
-        Item.total_ids = total_ids;
-    }
-
     public String generateId() {
         total_ids++;
         return "item-" + total_ids;
+    }
+
+    // In this method, two objects will be compared.
+    // first object is going to call this function
+    // second object is passed as an argument.
+    @Override
+    public int compareTo(Item other) {
+        // first object: this
+        // second object: other
+        // first object to appear first: return -1 (-ve)
+        // second object to appear first: return +ve
+        if(other == null)
+            throw new NullPointerException("Cannot compare null object");
+        return this.getName().compareToIgnoreCase(other.getName());
     }
 }

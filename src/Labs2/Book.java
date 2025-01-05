@@ -6,10 +6,6 @@ public abstract class Book implements Lendable{
     private String author;
     private boolean isAvailable;
 
-    // Add default constructors.
-
-    // Add copy constructors.
-
     public Book(String isbn, String title, String author) {
         this.isbn = isbn;   // International Standard Book Number
         this.title = title;

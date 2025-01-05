@@ -1,6 +1,8 @@
 package Labs3;
 
-public class Electronic extends Item {
+import java.io.Serializable;
+
+public class Electronic extends Item{
     private int warranty;
 
     public Electronic(String name, double price, int quantity, int warranty) {
