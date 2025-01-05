@@ -3,8 +3,8 @@ package Labs3;
 public class Book extends Item{
     private String author;
 
-    public Book(String name, double price, int quantity, String author) {
-        super(name, price, quantity);
+    public Book(String id, String name, double price, int quantity, String author) {
+        super(id, name, price, quantity);
         this.author = author;
     }
 

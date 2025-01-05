@@ -5,8 +5,8 @@ import java.io.Serializable;
 public class Electronic extends Item{
     private int warranty;
 
-    public Electronic(String name, double price, int quantity, int warranty) {
-        super(name, price, quantity);
+    public Electronic(String id, String name, double price, int quantity, int warranty) {
+        super(id, name, price, quantity);
         this.warranty = warranty;
     }
 
