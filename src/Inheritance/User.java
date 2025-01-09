@@ -1,6 +1,8 @@
 package Inheritance;
 
-public class User {
+import AccessModifiers.Student;
+
+public class User extends Student {
     int id;
 
     void login(){
