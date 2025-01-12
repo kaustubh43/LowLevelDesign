@@ -1,6 +1,6 @@
 package InterfacesDemo;
 
-public class Person implements PersonInterface{
+public abstract class Person implements PersonInterface{
     int age;
     String firstName;
     String lastName;
@@ -35,4 +35,6 @@ public class Person implements PersonInterface{
     public int getAge() {
         return this.age;
     }
+
+    public abstract void setRole(String role);
 }

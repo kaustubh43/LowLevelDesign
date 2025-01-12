@@ -5,4 +5,8 @@ public class Student {
     protected String age;
     String division;
     private String phoneNumber;
+
+    public String getAge(){
+        return age;
+    }
 }

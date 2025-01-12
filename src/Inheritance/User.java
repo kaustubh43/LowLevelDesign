@@ -8,4 +8,9 @@ public class User extends Student {
     void login(){
         System.out.println("User with ID" + this.id + " has logged in");
     }
+
+    public int getId() {
+        return id;
+    }
+
 }
