@@ -1,6 +1,7 @@
-package DesignPrinciples.LSP.Solution;
+package DesignPrinciples.InterfaceSegregation.Solution;
 
-public class Pigeon implements Flyable, Audible{
+public class Pigeon implements Flyable, Sound {
+
     @Override
     public void makeSound() {
         System.out.println("Gutarguu");

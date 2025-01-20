@@ -2,7 +2,7 @@ package Concurrency;
 
 public class ThreadException {
     public static void main(String[] args) {
-        Thread thread = new Thread(new Runnable() {
+        Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
@@ -14,13 +14,12 @@ public class ThreadException {
             }
         });
 
-
-        thread.start();
-
+        // start t1 which is defined above.
+        t1.start();
 
         try {
-            Thread.sleep(5001);
-            thread.interrupt();
+            Thread.sleep(4000);
+            t1.interrupt();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
