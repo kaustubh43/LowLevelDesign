@@ -3,8 +3,8 @@ package DesignPatterns.Singleton;
 public class Client {
     public static void main(String[] args) {
 
-        Logger l1 = Logger.getInstance();
-        Logger l2 = Logger.getInstance();
+        LazyLoading l1 = LazyLoading.getInstance();
+        LazyLoading l2 = LazyLoading.getInstance();
         System.out.println("Lazy loading");
 
         LoggerEagerLoading l3 = LoggerEagerLoading.getInstance();

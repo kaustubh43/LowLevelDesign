@@ -1,15 +1,15 @@
 package DesignPatterns.Singleton;
 
-public class Logger {
-    private static Logger instance = null;
+public class LazyLoading {
+    private static LazyLoading instance = null;
 
-    private Logger() {}
+    private LazyLoading() {}
 
     // Object is created only when it is required.
     // This is "Lazy Loading".
-    public static Logger getInstance(){
+    public static LazyLoading getInstance(){
         if(instance ==null) {
-            instance = new Logger();
+            instance = new LazyLoading();
         }
         return instance;
     }
