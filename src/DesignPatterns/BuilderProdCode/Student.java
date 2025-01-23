@@ -24,7 +24,6 @@ public class Student {
         System.out.println("Object created successfully:: " + this.name);
     }
 
-    // Created a new builder.
     // This is used for creating a builder object from the outside world.
     public static Builder newBuilder() {
         return new Builder();
@@ -40,11 +39,12 @@ public class Student {
         private double psp;
         private String university;
 
-        private Builder() {}
+        private Builder() {}    // Not accessible from the outside world.
 
         // Finally builds the object.
         public Student build() {
-            return new Student(this);
+            return new Student(this);   // Create a new Student object using student constructor.
+                                        // and send builder object in the constructor.
         }
 
         public Builder setName(String name) {
