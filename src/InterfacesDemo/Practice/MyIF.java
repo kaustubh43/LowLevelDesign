@@ -9,4 +9,8 @@ public interface MyIF {
     default void setNumberDefault(){
         setNumber(999);
     }
+
+    static void sayHello(){
+        System.out.println("Hello World");
+    }
 }

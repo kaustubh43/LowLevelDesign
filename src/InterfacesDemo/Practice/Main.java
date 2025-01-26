@@ -5,6 +5,7 @@ public class Main {
         MyClass myClass = new MyClass();
         System.out.println(myClass.getNumber());
         myClass.setNumberDefault();
-        System.out.print(myClass.getNumber());
+        System.out.println(myClass.getNumber());
+        MyIF.sayHello();
     }
 }
