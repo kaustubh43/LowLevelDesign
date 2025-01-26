@@ -15,6 +15,7 @@ public class Main {
                 .setName("Kaustubh")
                 .setUniversity("GU")
                 .setPsp(97.0d)
+                .setBatch("intermediate")
                 .build();
 
 //        s.setName("Eshani");      // Cannot do this since this is not accessible.
