@@ -12,11 +12,14 @@ public class Main {
         sail.addObserver(new AppService());
         sail.addObserver(new EmailService());
         sail.addObserver(new SmsService());
-        // update stock below threshold
-        sail.updateStockPrice(88);
-        System.out.println("Stock price updated to 88");
-        // update above threshold
-        sail.updateStockPrice(102);
-        System.out.println("Stock price updated to 102");
+
+        updateStockPrice(88, sail);
+        updateStockPrice(100, sail);
+    }
+
+    public static void updateStockPrice(int price, StockTradingManager sail) {
+        System.out.println("Stock price updated to " + price);
+        sail.updateStockPrice(price);
+        System.out.println("***DONE***");
     }
 }
