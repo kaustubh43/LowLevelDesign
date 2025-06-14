@@ -13,6 +13,10 @@ public abstract class Shape {
         this.borderColor = borderColor;
     }
 
+    public void sayHello() {
+        System.out.println("Hello World! from Shape");
+    }
+
     public int getPositionX() {
         return positionX;
     }

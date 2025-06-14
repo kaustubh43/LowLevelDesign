@@ -8,6 +8,11 @@ public class Circle extends Shape{
         this.radius = radius;
     }
 
+    @Override
+    public void sayHello() {
+        System.out.println("Hello World!");
+    }
+
     public double getRadius() {
         return radius;
     }
