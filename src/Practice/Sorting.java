@@ -25,7 +25,7 @@ public class Sorting {
             result = temp + result;
         }
 
-        // if (A.get(0) == 0) return "0";  // Covering edge case wherein the input is 0.
+        // if (A.get(0) == 0) return "0"; // Covering edge case wherein the input is 0.
         return result;
     }
 
