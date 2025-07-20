@@ -1,4 +1,4 @@
-package DataStructures.PriorityQueue;
+package DataStructuresAlgorithms.PriorityQueue;
 
 public class Heap {
     public int[] buildHeap(int[] A) {
