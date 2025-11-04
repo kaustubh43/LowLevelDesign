@@ -12,6 +12,11 @@ out/
 .idea/**/shelf
 .idea/**/inspectionProfiles
 
+# Github copilot files
+.idea/*copilot*
+.idea/*Copilot*
+.idea/com.github.copilot*
+
 ### Eclipse ###
 .apt_generated
 .classpath
