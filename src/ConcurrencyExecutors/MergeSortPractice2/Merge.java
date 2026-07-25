@@ -9,7 +9,7 @@ import java.util.concurrent.Future;
 public class Merge {
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newCachedThreadPool();
-        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(10, 18, 91, 81, 65, 1, 100));
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(10, 100, 18, 91, 81, 65, 1));
 
         MergeSorter sorter = new MergeSorter(list, executorService);
 
